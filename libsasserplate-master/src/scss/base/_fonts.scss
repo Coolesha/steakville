@@ -1,3 +1,12 @@
 /* ==========================================================================
    Webfonts
    ========================================================================== */
+// @include font-face(fontawesome, ../../fonts/fontawesome);
+
+/* Fonts
+========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400i,600i,700i,800i,300,400,600,700,800&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script:300,400,600,700,800&subset=latin,latin-ext);
+
+$font_normal: 'Open Sans', Arial, sans-serif;
+$font_normal-2: 'Kaushan Script', Arial, sans-serif;
