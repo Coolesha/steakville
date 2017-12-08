@@ -10,3 +10,11 @@
 
 $font_normal: 'Open Sans', Arial, sans-serif;
 $font_normal-2: 'Kaushan Script', Arial, sans-serif;
+
+@font-face {
+    font-family: 'Wild Youth';
+    font-weight: 400;
+    src: url("../../fonts/WildYouth-Regular.otf") format("opentype");
+}
+
+$font-wild: 'Wild Youth';
