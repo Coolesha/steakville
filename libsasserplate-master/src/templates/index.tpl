@@ -10,10 +10,10 @@
     <body>
         {% import "partials/layouts/header.tpl" as l_header %}
         {{ l_header.render() }}
-
+        {% include "partials/layouts/header-two.tpl" %}
+        {% include "partials/layouts/header-three.tpl" %}
        
-       
-
+     
        
         <main class="l-main">
             <div class="l-inner">
@@ -28,6 +28,7 @@
             </div>
         </main>
         <footer class="l-footer" data-css-spacing="top2 tablet(top1) left5 tablet(left3)">
+                               {% include "partials/layouts/footer.tpl" %}
             <div class="l-inner">
                 <p>
                     &copy; 2016 {{ author }}

@@ -45,11 +45,14 @@
                     </li>
                 </ul>
             </nav>
-        </div>
-        
+        </div>   
     </header>
 
-    <div>
-        <h1 class="wild">Welcome to</h1>
+    <div class="hero-container">
+        <h2 class="wild">Welcome to</h2>
+        <h1 class="average heading-1">Steakville Restaurant</h1>
+        <p class="address">New Scotland Yard, 8-10 Broadway, Westminster, London SW1H 0BG</p>
+        <img src="" alt="">
+
     </div>
 {% endmacro %}
