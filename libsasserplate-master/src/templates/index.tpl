@@ -24,6 +24,8 @@
         {% include "partials/layouts/our-chefs-two.tpl" %}
         {% include "partials/layouts/reservation.tpl" %}
         {% include "partials/layouts/reservation-two.tpl" %}
+        {% include "partials/layouts/reviews.tpl" %}
+        {% include "partials/layouts/reviews2-subscribe.tpl" %}
         <footer class="l-footer" data-css-spacing="top2 tablet(top1) left5 tablet(left3)">
                                {% include "partials/layouts/footer.tpl" %}
             <div class="l-inner">

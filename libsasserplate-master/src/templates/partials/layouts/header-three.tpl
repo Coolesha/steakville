@@ -1,7 +1,7 @@
 <header class="l-header">
         <div class="top-bar-header-three">
             <div class="top-bar-header-three__icons">
-                <ul class="top-bar__icons_list"> 
+                <ul class="top-bar__icons_list">
                     <li class="top-bar-header-three__item"><a href=""></a></li>
                     <li class="top-bar-header-three__item"><a href=""></a></li>
                     <li class="top-bar-header-three__item"><a href=""></a></li>
@@ -40,7 +40,7 @@
                 <li></li>
             </ul></aside>
             <div class="l-box-section-of">
-                <div class="c-box-section-of"> 
+                <div class="c-box-section-of">
                     <h2 class="c-box-section-of__title">ORGANIC FOOD</h2>
                     <figure><img src="" alt=""></figure>
                     <p class="c-box-section-of__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
