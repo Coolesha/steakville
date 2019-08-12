@@ -10,20 +10,24 @@
     <body>
         {% import "partials/layouts/header.tpl" as l_header %}
         {{ l_header.render() }}
-
+        {% include "partials/layouts/header-two.tpl" %}
+        {% include "partials/layouts/header-three.tpl" %}
         <main class="l-main">
-            <div class="l-inner">
-                <div class="l-main__head">
-                    <div class="l-main__head__title">
-                        <h2>Page Content</h2>
-                    </div>
-                </div>
-                <div class="l-main__content" data-css-spacing="top5 tablet(top3) phone(top1)" data-css-offset="tablet(top3) left2 desktop-small(left1)">
+        {% include "partials/layouts/about.tpl" %}
+                        <!---<div class="l-main__content" data-css-spacing="top5 tablet(top3) phone(top1)" data-css-offset="tablet(top3) left2 desktop-small(left1)">
                     {% include "partials/main-nav.tpl" %}
-                </div>
-            </div>
-        </main>
+                </div>-->
+        {% include "partials/layouts/about-two.tpl" %}
+        {% include "partials/layouts/menu.tpl" %}
+        {% include "partials/layouts/menu-two.tpl" %}
+        {% include "partials/layouts/our-chefs.tpl" %}
+        {% include "partials/layouts/our-chefs-two.tpl" %}
+        {% include "partials/layouts/reservation.tpl" %}
+        {% include "partials/layouts/reservation-two.tpl" %}
+        {% include "partials/layouts/reviews.tpl" %}
+        {% include "partials/layouts/reviews2-subscribe.tpl" %}
         <footer class="l-footer" data-css-spacing="top2 tablet(top1) left5 tablet(left3)">
+                               {% include "partials/layouts/footer.tpl" %}
             <div class="l-inner">
                 <p>
                     &copy; 2016 {{ author }}
